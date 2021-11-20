@@ -1,3 +1,19 @@
+/*
+ * Zadatak 5.
+ * 
+ * Napisati C program koji za broj unesen sa
+ * standardnog ulaza odreduje i ispisuje na
+ * standardni izlaz:
+ *   - Broj uvecan za 3 ako je paran
+ *   - "Neparan broj" ako je neparan
+ * 
+ * Primer:
+ * > 6
+ * 9
+ * > 11
+ * Neparan broj
+ */
+
 #include <stdio.h>
 
 int main()

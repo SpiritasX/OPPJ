@@ -1,3 +1,3 @@
 /*
- * Pogledaj \V1\Z02.c
+ * Pogledaj /V1/Z02.c
  */

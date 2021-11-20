@@ -1,3 +1,19 @@
+/*
+ * Zadatak 3.
+ * 
+ * Napisati C program koji za tri ulazne celobrojne
+ * promenljive, odreduje i ispisuje vrednost
+ * najmanje na standardni izlaz.
+ * 
+ * Primer:
+ * > 1 2 3
+ * 1
+ * > 19 52 10
+ * 10
+ * > 42 29 529
+ * 29
+ */
+
 #include <stdio.h>
 
 int main()

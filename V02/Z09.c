@@ -1,3 +1,20 @@
+/*
+ * Zadatak 9.
+ * 
+ * Napisati C program kojim se za zadatu vrednost
+ * poluprecnika lopte r izracunava i ispisuje povrsina
+ * i zapremina lopte.
+ * 
+ * S = 4 * r^2 * PI
+ * V = (4/3) * r^3 * PI
+ * 
+ * Primer:
+ * > 3.3
+ * 136.85 150.53
+ * > 5.7
+ * 408.28 775.73
+ */
+
 #include <stdio.h>
 
 #define PI 3.14159

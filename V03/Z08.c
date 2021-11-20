@@ -1,3 +1,26 @@
+/*
+ * Zadatak 8.
+ * 
+ * Nacrtati dijagram toka algoritma i napisati C
+ * program koji ucitava vrednosti promenljivih a i b,
+ * a zatim resava jednacinu ax + b = 0.
+ * Pokriti sve slucajeve za razlicite kombinacije
+ * vrednosti a i b.
+ * 
+ * x = -b / a
+ * a != 0
+ * 
+ * Primer:
+ * > 1 2
+ * -2.000
+ * > 12.3 5.15
+ * -0.419
+ * > 0 0
+ * X pripada R.
+ * > 0 5
+ * Deljenje sa nulom nije dozvoljeno.
+ */
+
 #include <stdio.h>
 
 int main()

@@ -1,12 +1,18 @@
 /*
  * Zadatak 11.
- * Napisati C program kojim se unosi brojevi a, b i c
+ * Napisati C program kojim se unose brojevi a, b i c
  * i ispituje da li je moguce formirati trougao sa
  * duzinama stranica koje su a, b i c.
  *
  * Note:
  * Trougao ima osobine da zbir bilo koje dve stranice
  * mora biti veci od trece stranice.
+ * 
+ * Primer:
+ * > 3 4 5
+ * Moguce
+ * > 1 2 4
+ * Nije moguce
  */
 
 #include <stdio.h>

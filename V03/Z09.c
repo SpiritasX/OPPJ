@@ -1,3 +1,28 @@
+/*
+ * Zadatak 9.
+ * 
+ * Tri tacke su zadate koordinatama u ravni.
+ * Nacrtati dijagram toka algoritma i napisati C
+ * program kojim se izracunava povrsina
+ * paralelograma ciji su vrhovi date tacke.
+ * 
+ * Note:
+ * Nisam siguran sta su vrhovi paralelograma pa sam
+ * ja gledao da se unose tacke A, B i C sa slike ispod.
+ * 
+ *   D----C
+ *  /    /
+ * A----B
+ * 
+ * Takodje sam povrsinu izracunao preko determinante.
+ * 
+ * Primer:
+ * > 0 0
+ * > 5 0
+ * > 8 3
+ * 18.49
+ */
+
 #include <stdio.h>
 
 int main()
