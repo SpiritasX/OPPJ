@@ -1,3 +1,22 @@
+/*
+ * Zadatak 18.
+ * 
+ * Nacrtati dijagram toka algoritma i napisati C program
+ * koji za uneseni string proverava da li je moguce da taj
+ * string bude palindrom. Ako je moguce, treba da se
+ * ispise potencijalni palindrom, ako ne, treba ispisati
+ * "-1". Na ulazu su dozvoljena samo mala slova abecede i
+ * tacka.Tacka je dzoker znak, tj. menja bilo koje slovo.
+ * 
+ * Primer:
+ * > a.ba
+ *   abba
+ * > a..b
+ * -1
+ * > abnd.jbw..js..ba
+ *   abndsjbwwbjsdnba
+ */
+
 #include <stdio.h>
 #define MAX 30
 

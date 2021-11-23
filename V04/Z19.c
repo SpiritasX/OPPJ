@@ -1,3 +1,26 @@
+/*
+ * Zadatak 19.
+ * 
+ * Nacrtati dijagram toka algoritma i napisati C program koji
+ * proverava evidenciju prolaska zmija na ulazu na festival. Sova
+ * stoji na ulazu i ukoliko vidi na ulazu zmijinu glavu pise slovo 'G',
+ * ako ugleda rep pise slovo 'R' a u ostalim trenucima kada
+ * evidentira pise karakter '.' ukoliko zmije nema ili vidi da jos uvek
+ * prolazi telom kroz ulaz. Evidencija se unosi kao string, a na
+ * izlazu se ispisuje OK ako je sve u redu, tj. JOK ako nije. Posto
+ * zmije pristizu redom, u evidenciji se ne sme desiti da rep dode
+ * pre glave, kao ni vise glava ili repova zaredom, kao ni glava
+ * nakon koje ne dolazi rep.
+ * 
+ * Primer:
+ * > .G......RGR.G..R.GR....G....R..
+ * OK
+ * > ..G......GRR.
+ * JOK
+ * > ...RGR
+ * JOK
+ */
+
 #include <stdio.h>
 #define MAX 30
 
