@@ -31,6 +31,12 @@ int main()
 	printf("Unesite katete trougla\n> ");
 	scanf("%f %f", &a, &b);
 
+	// Ovaj poziv funkcije se prakticno zamenjuje
+	// povratnom vrednoscu funkcije, zato kazemo
+	// da je c = pozivu funkcije i sta god da
+	// funkcija vrati ce se sacuvati u c gde su
+	// tip funkcije (njene povratne vrednosti) i 
+	// promenljive isti naravno.
 	c = hipotenuza(a, b);
 
 	printf("%.2f", c);

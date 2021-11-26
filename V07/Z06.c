@@ -1,3 +1,11 @@
+/*
+* Zadatak 6.
+* 
+* Nacrtati dijagram toka algoritma i napisati C program
+* za prebrojavanje reci iz ulazne datoteke. U izlaznoj
+* datoteci ispisati broj reci i najduzu pronadjenu rec.
+*/
+
 #include <stdio.h>
 #include <string.h>
 
@@ -7,6 +15,8 @@ int main()
 	int brojReci = 0;
 	char najduzaRec[50] = { 0 }, temp[50] = { 0 };
 
+	// U opstem slucaju, moze samo ime datoteke da se koristi
+	// "ulazna_06.txt"
 	fp = fopen("..\\files\\ulazna_06.txt", "r");
 
 	if (fp == NULL)

@@ -12,7 +12,6 @@
  */
 
 #include <stdio.h>
-
 #define MAX 20
 
 int meni();
@@ -26,7 +25,6 @@ int main()
 {
 	int izbor, niz[MAX], n;
 
-	// Unos velicine niza
 	printf("Unesite velicinu niza\n");
 	do
 	{
@@ -34,7 +32,6 @@ int main()
 		scanf("%d", &n);
 	} while (n < 1 || n > MAX);
 
-	// Unos elemenata niza
 	printf("Unesite elemente niza\n");
 	for (int i = 0; i < n; i++)
 	{
@@ -42,12 +39,10 @@ int main()
 		scanf("%d", &niz[i]);
 	}
 
-	// Beskonacna petlja
 	do
 	{
 		izbor = meni();
 
-		// Rastavljanje toka programa po izboru korisnika
 		switch (izbor)
 		{
 			case 1:
@@ -62,6 +57,8 @@ int main()
 			case 4:
 				printf("Najveci clan niza je %d\n", max(niz, n));
 				break;
+			// Ovde umesto break moze i samo return 0 odma da se stavi
+			// i zavrsi program umesto da ide do kraja petlje.
 			case 5:
 				break;
 			default:
@@ -75,6 +72,9 @@ int main()
 	return 0;
 }
 
+/*
+* Ispisuje sve opcije za korisnika i cita njihov izbor.
+*/
 int meni()
 {
 	int izbor = 0;
@@ -91,6 +91,9 @@ int meni()
 	return izbor;
 }
 
+/*
+* Sabira n elemenata celobrojnog niza.
+*/
 int sum(int* niz, int n)
 {
 	int sum = 0;
@@ -101,11 +104,19 @@ int sum(int* niz, int n)
 	return sum;
 }
 
+/*
+* Racuna srednju vrednost n elemenata
+* prosledjenog celobrojnog niza.
+*/
 float avg(int* niz, int n)
 {
 	return (float)sum(niz, n) / n;
 }
 
+/*
+* Pronalazi najmanji element od prvih n
+* elemenata celobrojnog niza.
+*/
 int min(int* niz, int n)
 {
 	int min = niz[0];
@@ -116,6 +127,10 @@ int min(int* niz, int n)
 	return min;
 }
 
+/*
+* Pronalazi najveci element od prvih n
+* elemenata celobrojnog niza.
+*/
 int max(int* niz, int n)
 {
 	int max = niz[0];
@@ -126,6 +141,9 @@ int max(int* niz, int n)
 	return max;
 }
 
+/*
+* Ispisuje prvih n clanova celobrojnog niza.
+*/
 void ispisNiza(int* niz, int n)
 {
 	printf("[ ");
