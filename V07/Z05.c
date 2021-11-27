@@ -11,14 +11,14 @@
 #include <stdbool.h>
 #include <math.h>
 
-bool prost(unsigned);
+bool prost(int);
 
 int main()
 {
-	unsigned n;
+	int n;
 
 	printf("Unesite prirodan broj\n> ");
-	scanf("%u", &n);
+	scanf("%d", &n);
 
 	for (int i = 1; i < n; i++)
 		if (prost(i))
@@ -32,9 +32,9 @@ int main()
 * da x nije prost broj i vraca false. Ako ne
 * naidje ni na jedan delioc, na kraju vrati true.
 */
-bool prost(unsigned x)
+bool prost(int x)
 {
-	for (int i = 2; i < sqrt(x); i++)
+	for (int i = 2; i <= sqrt(x); i++)
 		if (x % i == 0)
 			return false;
 	return true;
