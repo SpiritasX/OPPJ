@@ -1,6 +1,13 @@
 /*
-* Note:
-* Nesto ne radiiiii
+* Zadatak 2.
+* 
+* U ulaznoj datoteci pod nazivom "filmovi.txt"
+* dati su zapisi o filmovima: naziv filma, prosecna ocena,
+* ukupan budzet i ukupna zarada. Napisati C program
+* koji cita ulaznu datoteku i u izlaznu datoteku
+* "najpopularniji.txt" ispisuje sve filmove sa
+* ocenom vecom od 7, sortirane po opadajucoj
+* vrednosti razlike budzeta i zarade.
 */
 
 #include <stdio.h>
@@ -18,14 +25,17 @@ int main()
 {
 	FILE* fp = fopen("filmovi.txt", "r");
 	
-	Film* filmovi = malloc(sizeof(Film));
+	Film* filmovi = NULL;
 	int n = 0;
 	
 	while (!feof(fp))
 	{
-		Film temp;
+		Film temp = { 0 };
 		fscanf(fp, "%s %f %lld %lld", temp.naziv, &temp.ocena, &temp.budzet, &temp.zarada);
 		
+		// Ovde ne moramo da proveravamo da li je scanf dobro procitao.
+		// Nece uci u if zato sto ce temp.ocena ostati 0 svakako ako ne
+		// procita dobro (linija 33, nastavak na prosli zadatak).
 		if (temp.ocena > 7)
 		{
 			filmovi = realloc(filmovi, (n + 1) * sizeof(Film));

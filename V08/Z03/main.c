@@ -1,3 +1,16 @@
+/*
+* Zadatak 3.
+* 
+* U ulaznoj datoteci "piloti.txt" dati su podaci o
+* pilotima: ime, prezime, broj godina iskustva i broj
+* letova. Napisati C program koji cita opisanu ulaznu
+* datoteku i u izlaznu datoteku "piloti_out.txt"
+* za svakog pilota ispisuje ime, prezime i prosecan broj
+* letova po godini. Za pilote koji imaju prosecan
+* godisnji broj letova veci od 7, ime i prezime ispisati
+* svim velikim slovima.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -23,14 +36,19 @@ int main()
 		return 0;
 	}
 	
-	Pilot* piloti = malloc(sizeof(Pilot));
+	Pilot* piloti = NULL;
 	int n = 0;
 	
 	while (!feof(fp))
 	{
-		piloti = realloc(piloti, (n + 1) * sizeof(Pilot));
-		fscanf(fp, "%s %s %u %u", piloti[n].ime, piloti[n].prezime, &piloti[n].iskustvo, &piloti[n].broj_letova);
-		n = n + 1;
+		Pilot temp;
+		int res = fscanf(fp, "%s %s %u %u", temp.ime, temp.prezime, &temp.iskustvo, &temp.broj_letova);
+		
+		if (res == 4)
+		{
+			piloti = realloc(piloti, (n + 1) * sizeof(Pilot));
+			piloti[n++] = temp;
+		}
 	}
 	
 	fp = fopen("piloti_out.txt", "w");
@@ -59,6 +77,10 @@ int main()
 	
 	return 0;
 }
+
+/*
+* Pretvara sva slova stringa u velika slova.
+*/
 
 void toUpperString(char* s)
 {
