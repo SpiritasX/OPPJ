@@ -51,7 +51,7 @@ int main()
 		}
 	}
 	
-	fp = fopen("najskuplje.txt", "w");
+	fp = freopen("najskuplje.txt", "w", fp);
 	
 	if (fp == NULL)
 	{
