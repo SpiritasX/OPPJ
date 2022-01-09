@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "view": {
+      "id": "82dq-nkpk",
+      "name": "Austin Water Approved Plant List",
+      "assetType": "dataset",
+      "attribution": "Austin Water",
+      "attributionLink": "http://www.austintexas.gov/wateringvariances",
+      "averageRating": 0,
+      "category": "Utilities and City Services",
+      "createdAt": 1465848491,
+      "description": "Austin Water’s approved plant list specifies plants that may receive a new landscape/xeriscape watering schedule variance. A landscape must have xeric (low or very low water use) plants to receive the variance. Austin Water might approve other plants if they will be low or very low water use once established. For a list of stabilization/erosion control plants that qualify for this variance, please refer to The City of Austin’s Standard Specifications Manual Item #604S",
+      "displayType": "table",
+      "downloadCount": 1688,
+      "hideFromCatalog": false,
+      "hideFromDataJson": false,
+      "indexUpdatedAt": 1506031521,
+      "licenseId": "PUBLIC_DOMAIN",
+      "newBackend": true,
+      "numberOfComments": 0,
+      "oid": 21644554,
+      "provenance": "official",
+      "publicationAppendEnabled": false,
+      "publicationDate": 1465849344,
+      "publicationGroup": 11310985,
+      "publicationStage": "published",
+      "rowsUpdatedAt": 1465848500,
+      "rowsUpdatedBy": "dg6c-4vht",
+      "tableId": 11310985,
+      "totalTimesRated": 0,
+      "viewCount": 38978,
+      "viewLastModified": 1618437984,
+      "viewType": "tabular",
+      "approvals": [
+        {
+          "reviewedAt": 1465849344,
+          "reviewedAutomatically": true,
+          "state": "approved",
+          "submissionId": 675809,
+          "submissionObject": "public_audience_request",
+          "submissionOutcome": "change_audience",
+          "submittedAt": 1465849344,
+          "workflowId": 2020,
+          "submissionDetails": {
+            "permissionType": "READ"
+          },
+          "submissionOutcomeApplication": {
+            "failureCount": 0,
+            "status": "success"
+          },
+          "submitter": {
+            "id": "579b-znrx",
+            "displayName": "Erik Luna"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "id": -1,
+          "name": "sid",
+          "dataTypeName": "meta_data",
+          "fieldName": ":sid",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [ "hidden" ]
+        },
+        {
+          "id": -1,
+          "name": "id",
+          "dataTypeName": "meta_data",
+          "fieldName": ":id",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [ "hidden" ]
+        },
+        {
+          "id": -1,
+          "name": "position",
+          "dataTypeName": "meta_data",
+          "fieldName": ":position",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [ "hidden" ]
+        },
+        {
+          "id": -1,
+          "name": "created_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [ "hidden" ]
+        },
+        {
+          "id": -1,
+          "name": "created_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [ "hidden" ]
+        },
+        {
+          "id": -1,
+          "name": "updated_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [ "hidden" ]
+        },
+        {
+          "id": -1,
+          "name": "updated_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [ "hidden" ]
+        },
+        {
+          "id": -1,
+          "name": "meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": [ "hidden" ]
+        },
+        {
+          "id": 258911956,
+          "name": "Plant Type",
+          "dataTypeName": "text",
+          "fieldName": "plant_type",
+          "position": 1,
+          "renderTypeName": "text",
+          "tableColumnId": 36706171,
+          "width": 220,
+          "cachedContents": {
+            "largest": "Vine",
+            "non_null": 167,
+            "null": 0,
+            "top": [
+              {
+                "item": "Large Tree",
+                "count": 20
+              },
+              {
+                "item": "Small Tree",
+                "count": 19
+              },
+              {
+                "item": "Shrub",
+                "count": 18
+              },
+              {
+                "item": "Perennial",
+                "count": 17
+              },
+              {
+                "item": "Cactus/Succulent",
+                "count": 16
+              },
+              {
+                "item": "Ornamental Grass",
+                "count": 15
+              },
+              {
+                "item": "Vine",
+                "count": 14
+              },
+              {
+                "item": "Groundcover",
+                "count": 13
+              },
+              {
+                "item": "Turf Grass",
+                "count": 12
+              }
+            ],
+            "smallest": "Cactus/Succulent"
+          },
+          "format": {}
+        },
+        {
+          "id": 258911957,
+          "name": "Name",
+          "dataTypeName": "text",
+          "fieldName": "name",
+          "position": 2,
+          "renderTypeName": "text",
+          "tableColumnId": 36706172,
+          "width": 148,
+          "cachedContents": {
+            "largest": "Zoysia, JaMur, El Toro, Crowne, Palisades ",
+            "non_null": 167,
+            "null": 0,
+            "top": [
+              {
+                "item": "Buffalo grass, 609, Density, Prairie, Prestige",
+                "count": 20
+              },
+              {
+                "item": "Shortgrass Prairie Seed Mix (Buffalo, Curly Mesquite, Blue Grama)",
+                "count": 19
+              },
+              {
+                "item": "Zoysia, JaMur, El Toro, Crowne, Palisades ",
+                "count": 18
+              }
+            ],
+            "smallest": "Abelia, Glossy"
+          },
+          "format": {}
+        },
+        {
+          "id": 258911958,
+          "name": "Scientific Name",
+          "dataTypeName": "text",
+          "fieldName": "scientific_name",
+          "position": 3,
+          "renderTypeName": "text",
+          "tableColumnId": 36706173,
+          "width": 280,
+          "cachedContents": {
+            "largest": "Zoysia japonica",
+            "non_null": 167,
+            "null": 0,
+            "top": [
+              {
+                "item": "Sedum spp.",
+                "count": 20
+              },
+              {
+                "item": "N/A",
+                "count": 19
+              },
+              {
+                "item": "Zoysia japonica",
+                "count": 18
+              }
+            ],
+            "smallest": "Abelia grandiflora"
+          },
+          "format": {}
+        },
+        {
+          "id": 258911959,
+          "name": "Notes",
+          "dataTypeName": "text",
+          "fieldName": "notes",
+          "position": 4,
+          "renderTypeName": "text",
+          "tableColumnId": 36706174,
+          "width": 160,
+          "cachedContents": {
+            "largest": "Common Bermuda grass is an invasive species and not allowed",
+            "non_null": 4,
+            "null": 163,
+            "top": [
+              {
+                "item": "Common Bermuda grass is an invasive species and not allowed",
+                "count": 20
+              }
+            ],
+            "smallest": "Common Bermuda grass is an invasive species and not allowed"
+          },
+          "format": {}
+        }
+      ],
+      "grants": [
+        {
+          "inherited": false,
+          "type": "viewer",
+          "flags": [ "public" ]
+        }
+      ],
+      "license": {
+        "name": "Public Domain"
+      },
+      "metadata": {
+        "custom_fields": {
+          "City of Austin": {
+            "Department ": "Austin Water"
+          },
+          "Digital Object Identifer (DOI)": {
+            "DOI Number": "https://doi.org/10.26000/007.000003"
+          },
+          "Additional Information": {
+            "Frequency": "Biannually"
+          },
+          "Catalog": {
+            "Dataset Page": ""
+          }
+        },
+        "availableDisplayTypes": [ "table", "fatrow", "page" ],
+        "rowLabel": "Row",
+        "renderTypeConfig": {
+          "visible": {
+            "table": true
+          }
+        }
+      },
+      "owner": {
+        "id": "579b-znrx",
+        "displayName": "Erik Luna",
+        "screenName": "Erik Luna",
+        "type": "interactive",
+        "flags": [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query": {},
+      "rights": [ "read" ],
+      "tableAuthor": {
+        "id": "579b-znrx",
+        "displayName": "Erik Luna",
+        "screenName": "Erik Luna",
+        "type": "interactive",
+        "flags": [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags": [ "austin", "water", "plants", "landscape", "variance", "xeriscape", "schedule" ],
+      "flags": [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data": [
+    [ "row-dwmv_b5td_83fe", "00000000-0000-0000-6A9A-4C8BE1CD89D7", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Ash, Texas", "Fraxinus texensis", null ],
+    [ "row-tey2_7rdk-rjve", "00000000-0000-0000-E481-DA2FC8D9F8BA", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Cherry, Black", "Prunus serotina var. exima", null ],
+    [ "row-6bdh-vuxk.gqy8", "00000000-0000-0000-4265-3E445796A735", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Cypress, Arizona", "Cupressus arizonica ", null ],
+    [ "row-4mgm-28fr-dxcw", "00000000-0000-0000-102C-7E9767B38D59", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Elm, Cedar", "Ulmus crassifolia", null ],
+    [ "row-6acd.hcs4-5cve", "00000000-0000-0000-79AD-EE3C226CEF84", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Juniper (Cedar)", "Juniperus spp.", null ],
+    [ "row-ij3k-cm9a-8vyy", "00000000-0000-0000-9C5A-9DB9BCE885E8", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Mesquite, Honey", "Prosopis glandulosa", null ],
+    [ "row-gekg_znyq.tk8i", "00000000-0000-0000-0AF8-8D17E1E10D65", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Oak, Bur", "Quercus macrocarpa", null ],
+    [ "row-maqa-gdkg~56jb", "00000000-0000-0000-624A-5B02B5FE128C", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Oak, Chinquapin", "Quercus muhlenbergii", null ],
+    [ "row-wxgs~fmv2.jep7", "00000000-0000-0000-C1EB-B5601969208F", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Oak, Lacey", "Quercus laceyi   ", null ],
+    [ "row-sp38_fn9k.xtx6", "00000000-0000-0000-5C27-19C7DD65C9E0", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Oak, Mexican White, Monterrey", "Quercus polymorpha", null ],
+    [ "row-ndmq~3vdg_eq3q", "00000000-0000-0000-6937-209C247DA233", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Oak, Southern Live", "Quercus virginiana", null ],
+    [ "row-wbf7_cuyf-vj69", "00000000-0000-0000-12D5-5F6DA6B416A1", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Oak, Texas Live", "Quercus fusiformis", null ],
+    [ "row-naxh.fps3_3wga", "00000000-0000-0000-F122-AFC5E41B2586", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Oak, Texas Red", "Quercus texana or buckleyi", null ],
+    [ "row-emsb.kuir-69sj", "00000000-0000-0000-E988-3ED1F161F422", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Oak, Vasey, Scrub, Shin", "Quercus pungens var. vaseyana", null ],
+    [ "row-bgsy.6jmc-s62r", "00000000-0000-0000-87B2-512A9DD3AF91", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Palmetto, Texas, Palm Texas Sabal", "Sabal mexicana or texana", null ],
+    [ "row-bqff~cmfb.qreg", "00000000-0000-0000-D90B-B5DDC1C7C1C4", 0, 1465849348, null, 1465849348, null, "{ }", "Large Tree", "Western Soapberry", "Sapindus drummondii", null ],
+    [ "row-rui3~m6rc-5q2n", "00000000-0000-0000-D5AB-F751F5B2F2A9", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Anacacho Orchid Tree", "Bauhinia lunariodes", null ],
+    [ "row-8d2i-8yyj_jiq4", "00000000-0000-0000-E056-7C4F604E4F4B", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Anacua (Sandpaper Tree)", "Ehretia anacua", null ],
+    [ "row-ci6e-gpcg_g4d4", "00000000-0000-0000-B89C-06742BA7EA3E", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Arroyo Sweetwood", "Myrospernum sousanum", null ],
+    [ "row-kx4u-spgv_uixp", "00000000-0000-0000-F7FC-ECB493F149F3", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Buckeye, Mexican", "Ungnadia speciosa", null ],
+    [ "row-7ce6-9jva_jpx8", "00000000-0000-0000-B8CA-3B773A6553DF", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Buckthorn, Carolina", "Frangula caroliniana", null ],
+    [ "row-3qbv_9yn5~m9au", "00000000-0000-0000-53AB-30B2CC5C96C2", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Crape Myrtle", "Lagerstroemia indica", null ],
+    [ "row-d2u4.2q8e_zawn", "00000000-0000-0000-2E83-A855358D1F13", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Desert Willow", "Chilopsis linearis", null ],
+    [ "row-fyde-sfn3-kb4j", "00000000-0000-0000-6F4B-EC0D68BA7B84", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Dogwood, Roughleaf", "Cornus drummondii", null ],
+    [ "row-4ej4.zjcm_pw99", "00000000-0000-0000-08A2-67668FEE3FEA", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Eve’s necklace", "Styphnolobium affinis", null ],
+    [ "row-6eye.n68d.4zp6", "00000000-0000-0000-0648-635653E78983", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Goldenball Leadball ", "Leucana retusa", null ],
+    [ "row-yape-b3vh.wu3v", "00000000-0000-0000-49F6-43A0C9FC77C3", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Holly, Yaupon", "Ilex vomitoria", null ],
+    [ "row-aas9.v7jb_k7ne", "00000000-0000-0000-509D-DB4C08D35DF7", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Huisache", "Acacia farnesiana", null ],
+    [ "row-ysfj-gkr8.2b9n", "00000000-0000-0000-C8CE-975F81A21722", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Kidneywood", "Eysenhardtia texana", null ],
+    [ "row-2unz.pagb~b6be", "00000000-0000-0000-6F65-3FE3B9C37CF1", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Mountain Laurel, Texas", "Sophora secundiflora", null ],
+    [ "row-2ai9.4veu-n9cx", "00000000-0000-0000-C255-29FE8E6D2B47", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Olive, Mexican", "Cordia boissieri", null ],
+    [ "row-sr6n-xu45-tsjr", "00000000-0000-0000-A20B-0577DF56D2EE", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Palm, Windmill", "Trachycarpus fortunei", null ],
+    [ "row-ueyy-aa2x.mx5h", "00000000-0000-0000-B5EE-EE7BA9908545", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Persimmon, Texas", "Diospyros texana", null ],
+    [ "row-mwsk-ddgt.gnja", "00000000-0000-0000-2E24-044B685AFDA7", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Plum, Mexican", "Prunus mexicana", null ],
+    [ "row-63jz.4cyt~ydcw", "00000000-0000-0000-6BC9-15449034C76C", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Pomegranate", "Punica granatum", null ],
+    [ "row-basu~c4ua_a4d6", "00000000-0000-0000-7056-0C993232485C", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Redbud", "Cercis canadensis var. texana, or var. mexicana", null ],
+    [ "row-bnmt-cexc-34z8", "00000000-0000-0000-CA76-843C84C968A4", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Retama", "Parkinsonia aculeata", null ],
+    [ "row-2ph5-x6tb~fvb4", "00000000-0000-0000-AF23-93D8B51FA0F7", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Silktassel, Mexican", "Garrya ovata spp. lindheimeri", null ],
+    [ "row-7ysu-scn3-vae7", "00000000-0000-0000-1006-3E46D2099D83", 0, 1465849348, null, 1465849348, null, "{ }", "Small Tree", "Viburnum, Rusty Blackhaw", "Viburnum rufidulum", null ],
+    [ "row-r5eu-egpu_f27x", "00000000-0000-0000-BA0E-9BF37A3AFAF7", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Abelia, Glossy", "Abelia grandiflora", null ],
+    [ "row-aj2q_nc72_f6xe", "00000000-0000-0000-09AC-8D7590FE3B27", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Agarita", "Berberis (Mahonia) trifololata", null ],
+    [ "row-rivg-jpnf~9ttt", "00000000-0000-0000-86F8-DA39C97FB826", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Apache Plume", "Fallogia paradoxa", null ],
+    [ "row-kix2_r4f6~pgrs", "00000000-0000-0000-D5F8-EF113AD38FB2", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Barbados Cherry", "Malpighia glabra", null ],
+    [ "row-6y5h~2qtg-na7c", "00000000-0000-0000-1BF5-A7695608C85D", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Bottlebrush", "Callistemon citrinus", null ],
+    [ "row-q8xh.vv2i~wugy", "00000000-0000-0000-9DDA-17A90EB9CC53", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Boxwood, Japanese", "Buxus microphylla", null ],
+    [ "row-pjys-6bv6_tcm3", "00000000-0000-0000-CA56-4F4254A0C479", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Butterfly Bush, Wooly", "Buddleja marrubifolia", null ],
+    [ "row-uwbg_chqc_36ir", "00000000-0000-0000-A0B3-114FF1B13632", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Dalea, Black", "Dalea frutescens", null ],
+    [ "row-v7hm_ixb8.mbtn", "00000000-0000-0000-CB8B-D479DA8D969C", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Desert Broom", "Baccharis sarothroides", null ],
+    [ "row-72wx-k7zh~8qj3", "00000000-0000-0000-A994-7358EDECDF42", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Elaeagnus", "Elaeagnus pungens", null ],
+    [ "row-bj2u_72yg.gbku", "00000000-0000-0000-6A4A-E8067D23E58D", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Elbow Bush", "Forestirera pubescens", null ],
+    [ "row-9xu9-ums4.aiet", "00000000-0000-0000-7305-814034E8722C", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Firebush", "Hamelia patens", null ],
+    [ "row-9pcv_rxqp.iint", "00000000-0000-0000-B5D1-7FA4D1797B89", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Flame Acanthus", "Anisacanthus quadrifidus var. wrightii", null ],
+    [ "row-3knb~354w_scww", "00000000-0000-0000-30A4-293639D0A9C8", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Fragrant Mimosa", "Mimosa borealis", null ],
+    [ "row-6kf2-42rx_v7tj", "00000000-0000-0000-9D38-71C39ECB6657", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Germander, Bush, Silver", "Teucrium fruticans", null ],
+    [ "row-tjz7_b2nr~33u2", "00000000-0000-0000-0C7D-5121C2DC4200", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Holly, Chinese, Buford", "Ilex cornuta", null ],
+    [ "row-zc4h-b5f4~f2s7", "00000000-0000-0000-6E0E-DDA2CE914901", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Holly, Yaupon", "Ilex vomitoria", null ],
+    [ "row-3tz7.q9j8_r6pq", "00000000-0000-0000-9719-3AD138642CF9", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Mistflower, White", "Ageratina havanensis/Eupatorium texense", null ],
+    [ "row-7djw_wn2s~bzb9", "00000000-0000-0000-E987-C90447EF38E0", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Palmetto, Dwarf", "Sabal minor", null ],
+    [ "row-h958_pjxp-upc9", "00000000-0000-0000-7F45-9103F90E50CE", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Rose, Belinda's Dream", "Rosa hybrida 'Belinda's Dream'", null ],
+    [ "row-mkzm.dzbs_2uyq", "00000000-0000-0000-2F8C-8D5FF05298E0", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Rose, Knockout", "Rosa radrazz", null ],
+    [ "row-fqgm~s7g4.yg66", "00000000-0000-0000-FB48-1A3E5DED4D90", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Rose, Mutabilis", "Rosa chinensis 'Mutabilis'", null ],
+    [ "row-n7n6~hb84~dfhj", "00000000-0000-0000-EC9C-0FC42B7F432F", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Rose, Martha Gonzales", "Rosa  'Martha Gonzales'", null ],
+    [ "row-piam_hj4h_iqfq", "00000000-0000-0000-F007-9A17D7A2BD86", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Rosemary", "Rosmarinus spp.", null ],
+    [ "row-zb65-eiy3~n3hw", "00000000-0000-0000-3ECB-6878F7EDA8BB", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Sage, Texas (Cenizo)", "Leucophyllum frutescens", null ],
+    [ "row-eyn3_r3fs.fidx", "00000000-0000-0000-5537-C1BE26712DC1", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Senna, Flowering", "Cassia corymbosa", null ],
+    [ "row-hw24.vgpm_zwd6", "00000000-0000-0000-5638-F45F0713AD77", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Sumac, Evergreen", "Rhus virens  ", null ],
+    [ "row-d4bm~q6ua~i3jt", "00000000-0000-0000-1655-C5E5E0EB7561", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Sumac, Flameleaf", "Rhus lanceolata", null ],
+    [ "row-557s_rbcw~udgq", "00000000-0000-0000-8F36-DC7C4A9D9E46", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Sumac, Fragrant (Aromatic)", "Rhus aromatica", null ],
+    [ "row-aetc.qdu2-4j44", "00000000-0000-0000-EC10-E7F03D996B31", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Thryallis", "Galphimia glauca", null ],
+    [ "row-jjmg_bymp_q2h8", "00000000-0000-0000-5CFD-CF4DE76F1E90", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Turk’s Cap", "Malvaviscus arboreus", null ],
+    [ "row-unh7.gi3r-3rqz", "00000000-0000-0000-F2D9-2DB419F2FFE1", 0, 1465849348, null, 1465849348, null, "{ }", "Shrub", "Viburnum, Rusty Blackhaw    ", "Viburnum rufidulum ", null ],
+    [ "row-dpqr-ypxm.4kq6", "00000000-0000-0000-7CFB-C9CDC203E97A", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Artemisia", "Artemisia spp.", null ],
+    [ "row-649i-8fsf.s2vu", "00000000-0000-0000-6657-87844B99530F", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Aster, Fall, Texas", "Aster spp.", null ],
+    [ "row-3r86.9u3v~23xw", "00000000-0000-0000-FD06-3FE91B94970D", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Bird of Paradise, Texas", "Caesalpinia gilliesi, pulcherrima", null ],
+    [ "row-stn7.ve6k.usjf", "00000000-0000-0000-C500-4DD938D85B80", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Black-Eyed Susan", "Rudbeckia hirta", null ],
+    [ "row-3f3a.ujd7.qh5b", "00000000-0000-0000-DC00-6A57BD61D993", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Bulbine", "Bulbine frutescens", null ],
+    [ "row-in6m~xa9c.wmvr", "00000000-0000-0000-F78E-C20F89B1CEF4", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Butterfly Weed, Mexican", "Asclepias currasavica", null ],
+    [ "row-ywpe.28ha~ziiz", "00000000-0000-0000-6FDE-428790773866", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Square Bud Primrose", "Calylophus berlandieri", null ],
+    [ "row-xy43.rgmy.89sd", "00000000-0000-0000-3159-3E05E0EF69A6", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Cast Iron Plant", "Aspidistra elatior", null ],
+    [ "row-urik-vikh_hf6t", "00000000-0000-0000-BD6D-C04867EAE7AF", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Chile Pequin (Petin)", "Capiscum anuum", null ],
+    [ "row-yx7j_pyq6.zax5", "00000000-0000-0000-BF18-8107154C5238", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Coneflower, Purple (Echinacea)", "Echinacea purpurea", null ],
+    [ "row-dn75~keiw_xegx", "00000000-0000-0000-19A4-87E7AD4280F8", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Coralbean", "Erithryna herbacea", null ],
+    [ "row-92g3_ek9w_sfne", "00000000-0000-0000-4E82-84A82DD2611C", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Coreopsis, Lance-leaf", "Coreopsis lanceolata", null ],
+    [ "row-4wce~93nr~wtn4", "00000000-0000-0000-82D0-988526E9E931", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Cotoneaster", "Cotoneaster horizontalis", null ],
+    [ "row-sg45.sres.nkb5", "00000000-0000-0000-4BD9-826813996A10", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Cuphea, Batface", "Cuphea llavea", null ],
+    [ "row-9urs-qe63_qak7", "00000000-0000-0000-2C78-506B1F62DE7E", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Daisy, Blackfoot", "Melampodium leucanthum", null ],
+    [ "row-uugx_3vg7.fcyi", "00000000-0000-0000-123B-789D05C097BE", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Daisy, Chocolate", "Berlandiera lyrata", null ],
+    [ "row-amdz.pbvs~e4xy", "00000000-0000-0000-7B48-E6EB2D2FA239", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Daisy, Copper Canyon", "Tagetes lemmonii", null ],
+    [ "row-5mec_74jv-cnte", "00000000-0000-0000-D4F6-28833D1E6845", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Daisy, Four-nerve", "Tetraneuris scaposa", null ],
+    [ "row-vn4n~6uu7_5qwq", "00000000-0000-0000-CD44-309228B0D2C4", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Damianita", "Chrysactinia mexicana", null ],
+    [ "row-twec-c6t8~rnqu", "00000000-0000-0000-2DC5-02659631B173", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Datura or Jimson Weed", "Datura wrightii", null ],
+    [ "row-5prs_4myt.2ssu", "00000000-0000-0000-6872-EB5C37A094DB", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Esperanza/Yellow Bells", "Tecoma stans", null ],
+    [ "row-2dpd.yi82.7ms6", "00000000-0000-0000-DB8A-3C8453EB33D2", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Firecracker Fern", "Russelia equisetiformis", null ],
+    [ "row-n73i_suit~j2b7", "00000000-0000-0000-1BB3-F1EEAEA97467", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Gaura", "Gaura lindheimeri", null ],
+    [ "row-pu9y_wxmw-5u4p", "00000000-0000-0000-3B92-BBE27941C096", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Gayfeather", "Liatris mucronata", null ],
+    [ "row-6v8v~r98e_7fuu", "00000000-0000-0000-8E0B-700453787EDB", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Ghost Plant", "Graptopetalum paraguayense", null ],
+    [ "row-d4dq_qtkq~uff2", "00000000-0000-0000-63E4-D0F30ED0018A", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Honeysuckle, Mexican", "Justicia spicigera", null ],
+    [ "row-thqv-nm5t_rkua", "00000000-0000-0000-4CA3-C25D21CC5E66", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Hymenoxys, Four Nerve Daisy", "Tetraneuris scaposa or  Hymenoxys scaposa", null ],
+    [ "row-v9ww.eqgi-jaka", "00000000-0000-0000-10E3-701EDB7A5601", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Iris, Bicolor", "Dietes bicolor", null ],
+    [ "row-63cn_nsmz_qv4r", "00000000-0000-0000-5BAE-9B8E47AD90CB", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Iris, Cemetery", "Iris albicans", null ],
+    [ "row-ic5d-sztt.nawv", "00000000-0000-0000-0D76-F05CF593F157", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Lamb’s Ear", "Stachys byzantina", null ],
+    [ "row-w5wk.kihr_hwha", "00000000-0000-0000-6E5A-F1DAD891068B", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Lantana", "Lantana spp.", null ],
+    [ "row-2akr_8exq-pgfm", "00000000-0000-0000-3A69-00972ADE0A09", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Lion’s Tail", "Leonotis leonurus", null ],
+    [ "row-wr5k_d3dm_4giw", "00000000-0000-0000-1B3B-42B32EF1F6B8", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Mistflower, Gregg", "Conoclinium greggi", null ],
+    [ "row-dkbp-byg4_z8zm", "00000000-0000-0000-C93D-C640ED3D37EE", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Morning Glory, Bush", "Ipomoea leptophylla", null ],
+    [ "row-d4xt~49qp.37dy", "00000000-0000-0000-0011-CA942F954275", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Oregano, Mexican ", "Poliomintha longiflora", null ],
+    [ "row-wvvs_4agb.nq6c", "00000000-0000-0000-E5A2-239998ED453D", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Penstemon", "Penstemon spp.", null ],
+    [ "row-km4w.54ki~zing", "00000000-0000-0000-272C-688E90687EDA", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Pride of Barbados", "Caesalpinia pulcherrima", null ],
+    [ "row-rak4-wyjv-w9xv", "00000000-0000-0000-E63F-DB33CE2E34D4", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Primrose, Missouri", "Oenothera missouriensis", null ],
+    [ "row-rbsk.8u29-vugg", "00000000-0000-0000-714D-6F71F6288B34", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Primrose, Pink Evening", "Oenothera speciosa", null ],
+    [ "row-bua3-c8ia-3bez", "00000000-0000-0000-064F-ACE0188F6934", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Purple Prairie Clover", "Dalea purpurea", null ],
+    [ "row-4sy4~shr4~8jzp", "00000000-0000-0000-6113-BB39C8A331E4", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Rock Rose", "Pavonia lasiopetala ", null ],
+    [ "row-d6gw.rqqr_6x42", "00000000-0000-0000-AAEC-8C468964A55A", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Ruellia, Dwarf", "Ruellia brittoniana", null ],
+    [ "row-njkt_e8qz~ivvy", "00000000-0000-0000-166F-488021A868C7", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Sage, Jerusalem", "Phlomis fruticosa", null ],
+    [ "row-zp29~5kii~5c2m", "00000000-0000-0000-9D8D-509B891EC48C", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Sage, Russian", "Perovskia atriplicifolia", null ],
+    [ "row-p89y-95ht-pje5", "00000000-0000-0000-7D22-4D10C9826642", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Sage, Salvia", "Salvia spp.", null ],
+    [ "row-mpez_9wgp-aimq", "00000000-0000-0000-0033-D22045FFA22B", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Senna, Lindheimer ", "Senna lindheimeriana", null ],
+    [ "row-i24v.vc8s_javg", "00000000-0000-0000-0B75-348DF2545B37", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Shrimp Plant", "Justica brandegeana", null ],
+    [ "row-6x4t~95h6_qv95", "00000000-0000-0000-4E0D-500B3ECBEC53", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Skeletonleaf Goldeneye", "Viguiera stenoloba", null ],
+    [ "row-y24s~bmy4.fcgk", "00000000-0000-0000-B280-BF143DE80BEC", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Skullcap, Heartleaf", "Scutellaria ovata sp. bracteata", null ],
+    [ "row-4qg7-pd9c.f4fp", "00000000-0000-0000-CED6-A7B975FB7843", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Skullcap, Pink or Wright's Purple", "Scutellaria suffrutescens or wrightii", null ],
+    [ "row-t2qj.kc9d_9fha", "00000000-0000-0000-A3D1-2C93F6213E56", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Spiderwort", "Tradescantia spp.", null ],
+    [ "row-mphj.geys_wd5j", "00000000-0000-0000-E09C-0C9A151257C9", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Sunflower, Maximilian", "Helianthus maximiliani", null ],
+    [ "row-pbj4.kbu6~ci5j", "00000000-0000-0000-B03B-36301113755F", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Texas Betony", "Stachys coccinea", null ],
+    [ "row-drs2-ttup_c93a", "00000000-0000-0000-2FF1-06CA8CED8ABA", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Winecup, Perennial", "Callirhoe involucrata", null ],
+    [ "row-bydp_sa7b_74i9", "00000000-0000-0000-822E-C8AADD71F52B", 0, 1465849348, null, 1465849348, null, "{ }", "Perennial", "Zexmenia", "Wedelia texana", null ],
+    [ "row-fged~mju5~9q5c", "00000000-0000-0000-20A4-2CE43CF51F7C", 0, 1465849348, null, 1465849348, null, "{ }", "Cactus/Succulent", "Agave", "Agave spp.", null ],
+    [ "row-6j89_rdbt_7eed", "00000000-0000-0000-B6F8-C90F45146FDD", 0, 1465849348, null, 1465849348, null, "{ }", "Cactus/Succulent", "Basket Grasss, Texas Beargrass, Sacahuista", "Nolina texana", null ],
+    [ "row-ynz2_vcp5_q625", "00000000-0000-0000-F160-37985651B305", 0, 1465849348, null, 1465849348, null, "{ }", "Cactus/Succulent", "Devil’s shoestring, Nolina", "Nolina lindheimeriana", null ],
+    [ "row-2xhn_rssr_m2pq", "00000000-0000-0000-FACD-83C0A72C89B7", 0, 1465849348, null, 1465849348, null, "{ }", "Cactus/Succulent", "Prickly Pear", "Opuntia spp.", null ],
+    [ "row-yqq2.7gvg.xzd6", "00000000-0000-0000-FAFA-F5B1AE36C2F0", 0, 1465849348, null, 1465849348, null, "{ }", "Cactus/Succulent", "Sedum ", "Sedum spp.", null ],
+    [ "row-mt4y.tjnd.dvwy", "00000000-0000-0000-8C99-36D7E275E0B4", 0, 1465849348, null, 1465849348, null, "{ }", "Cactus/Succulent", "Sotol, Texas", "Dasylirion texana", null ],
+    [ "row-pscp-fgzq~5ppb", "00000000-0000-0000-C986-3E82C8524502", 0, 1465849348, null, 1465849348, null, "{ }", "Cactus/Succulent", "Yucca", "Hesperaloe spp.,Yucca spp.", null ],
+    [ "row-39xt~z857-6fqf", "00000000-0000-0000-905F-0C3EEF084A14", 0, 1465849348, null, 1465849348, null, "{ }", "Ornamental Grass", "Bluestem, Little", "Schizachyrium scoparium", null ],
+    [ "row-t24f.d4p4.tqw9", "00000000-0000-0000-375E-84DD23DE1528", 0, 1465849348, null, 1465849348, null, "{ }", "Ornamental Grass", "Feathergrass, Mexican", "Nassella tenuissima", null ],
+    [ "row-t4kf.q9qa_zi5k", "00000000-0000-0000-AF48-DC9086754DBF", 0, 1465849348, null, 1465849348, null, "{ }", "Ornamental Grass", "Inland Sea Oats", "Chasmanthium latifolium", null ],
+    [ "row-2mgu-9fbm.umqv", "00000000-0000-0000-D87A-1C70A1D02387", 0, 1465849348, null, 1465849348, null, "{ }", "Ornamental Grass", "Maiden Grass or other Miscanthus", "Miscanthus spp.", null ],
+    [ "row-4x9j.ca8r~4xyv", "00000000-0000-0000-C2A3-B3F16185EE16", 0, 1465849348, null, 1465849348, null, "{ }", "Ornamental Grass", "Muhly Grass", "Muhlenbergia spp.", null ],
+    [ "row-zgv5_2yiz.9y3z", "00000000-0000-0000-B23E-66CEE01E5F84", 0, 1465849348, null, 1465849348, null, "{ }", "Ornamental Grass", "Purple Threeawn", "Aristida purpurea", null ],
+    [ "row-6vwm_hcai_xtwy", "00000000-0000-0000-0438-9178A9616D16", 0, 1465849348, null, 1465849348, null, "{ }", "Ornamental Grass", "Sideoats Grama", "Bouteloua curtipendula", null ],
+    [ "row-63j7.ku6d_yh7c", "00000000-0000-0000-BEB7-919FFCE3AE1B", 0, 1465849348, null, 1465849348, null, "{ }", "Ornamental Grass", "Switchgrass", "Panicum virgatum", null ],
+    [ "row-y98h_rkzt_amci", "00000000-0000-0000-32C2-C4C883D1ABCF", 0, 1465849348, null, 1465849348, null, "{ }", "Vine", "Crossvine", "Bignonia capreolata", null ],
+    [ "row-vr62-g57c.dzcr", "00000000-0000-0000-B16C-8F39238F8EF1", 0, 1465849348, null, 1465849348, null, "{ }", "Vine", "Jasmine, Confederate (Star)", "Trachelospermum jasminoides", null ],
+    [ "row-xmz4~mebb~bvhv", "00000000-0000-0000-18DE-6D0347A632B5", 0, 1465849348, null, 1465849348, null, "{ }", "Vine", "Mexican Flame Vine", "Pseudogynoxys chenopodioides", null ],
+    [ "row-f5gi~xdz6_2xrb", "00000000-0000-0000-A487-9A997DD8364A", 0, 1465849348, null, 1465849348, null, "{ }", "Vine", "Passion Vine", "Passiflora incarnata", null ],
+    [ "row-txwe~xwqn.f45s", "00000000-0000-0000-3AC9-AFF4B7329E4D", 0, 1465849348, null, 1465849348, null, "{ }", "Vine", "Trumpet Vine", "Campsis radicans", null ],
+    [ "row-ntve~i8cg~4w2y", "00000000-0000-0000-AA64-0321AA0674B2", 0, 1465849348, null, 1465849348, null, "{ }", "Vine", "Virginia Creeper", "Parthenocissus quinquefolia", null ],
+    [ "row-8679.kqz9_5b4e", "00000000-0000-0000-6CDA-F16E89BCCE18", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Clover Fern", "Marsilea macropoda", null ],
+    [ "row-3hgr_sphc~nkjd", "00000000-0000-0000-2988-FDE56E107699", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Dalea, Gregg", "Dalea greggii", null ],
+    [ "row-fyed.dwvr~nxhw", "00000000-0000-0000-0361-9C324E3A7EA7", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Germander, Creeping", "Teucrium cossonii", null ],
+    [ "row-xwdu.25yb_bmkn", "00000000-0000-0000-F94F-CFE75C203B0C", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Horseherb, Straggler Daisy", "Calyptocarpus vialis", null ],
+    [ "row-hxrv_8iug-bn4u", "00000000-0000-0000-A02C-81962880B3C4", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Iceplant", "Aptenia spp., Delosperma spp., Malephora spp.", null ],
+    [ "row-a4y2.qna4.k55g", "00000000-0000-0000-D02B-88C7C5FD7C72", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Mountain Pea", "Orbexilium sp. nov.", null ],
+    [ "row-bvpm_5i97_gkju", "00000000-0000-0000-9D00-E2BECB79AE31", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Plumbago, Leadwort", "Ceratostigma plumbaginoides", null ],
+    [ "row-vd9f-3jjn_wfac", "00000000-0000-0000-686C-815093A3C8D8", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Purple Heart", "Setcreasea pallida", null ],
+    [ "row-evdu_jduc_hjv3", "00000000-0000-0000-4F92-13E3678D28E8", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Rosemary, Trailing", "Rosmarinus officinalis var. prostratus", null ],
+    [ "row-h6dj~vrdf.rys8", "00000000-0000-0000-4376-944CFA3CBFCF", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Santolina", "Santolina chamaecyparissus", null ],
+    [ "row-cetn-b3kx-533c", "00000000-0000-0000-7275-B8A888B1E4AE", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Sedges", "Carex spp.", null ],
+    [ "row-azhc_bdnh-jng7", "00000000-0000-0000-0D25-C0F27C873969", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Sedum", "Sedum spp.", null ],
+    [ "row-h4it_but5~ba93", "00000000-0000-0000-0A99-477694664923", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Silver Ponyfoot", "Dichondra argentea", null ],
+    [ "row-q9m2_yrbi~ndn7", "00000000-0000-0000-2BD3-4636350AEBCF", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Snakeherb", "Dyschoriste linearis", null ],
+    [ "row-v33h.3jvw~kdjy", "00000000-0000-0000-49DE-29999D1B9C19", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Wooly Stemodia", "Stemodia lanata", null ],
+    [ "row-dcmt_hxnw-8vg4", "00000000-0000-0000-BCBE-2807F1B3DF59", 0, 1465849348, null, 1465849348, null, "{ }", "Groundcover", "Zexmenia, Wedelia", "Wedelia hispida", null ],
+    [ "row-g2vb-7nxz_8syp", "00000000-0000-0000-C38B-C476E5D078DF", 0, 1465849348, null, 1465849348, null, "{ }", "Turf Grass", "Bermuda grass (sod only), Celebration, Tifway 419", "Cynodon spp. ", "Common Bermuda grass is an invasive species and not allowed" ],
+    [ "row-nkyk.r4qv.npgp", "00000000-0000-0000-A7F4-BC490CFCB4D4", 0, 1465849348, null, 1465849348, null, "{ }", "Turf Grass", "Buffalo grass, 609, Density, Prairie, Prestige", "Bouteloua dactyloides", "Common Bermuda grass is an invasive species and not allowed" ],
+    [ "row-jrn3-3hrp_3zqg", "00000000-0000-0000-78DF-EDA75BA730C4", 0, 1465849348, null, 1465849348, null, "{ }", "Turf Grass", "Shortgrass Prairie Seed Mix (Buffalo, Curly Mesquite, Blue Grama)", "N/A", "Common Bermuda grass is an invasive species and not allowed" ],
+    [ "row-wfcv_5kr5~9nkm", "00000000-0000-0000-4FF9-B295C28A7CCA", 0, 1465849348, null, 1465849348, null, "{ }", "Turf Grass", "Zoysia, JaMur, El Toro, Crowne, Palisades ", "Zoysia japonica", "Common Bermuda grass is an invasive species and not allowed" ]
+  ]
+}
